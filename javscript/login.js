@@ -1,8 +1,8 @@
- window.addEventListener("load", () => {
-     if (localStorage.getItem("user")) {
-       window.location.replace("../index.html");
-     }
-    });
+// window.addEventListener("load", () => {
+  //   if (localStorage.getItem("user")) {
+    //   window.location.replace("../index.html");
+     //}
+    //});
 
 import { auth, signInWithEmailAndPassword } from "../firebase.js";
 
