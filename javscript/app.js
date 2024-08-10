@@ -1,9 +1,9 @@
-window.addEventListener("load", () => {
+//window.addEventListener("load", () => {
   //  console.log(localStorage.getItem("user"));
-    if (!localStorage.getItem("user")) {
-      window.location.replace("../pages/login.html");
-    }
-  });
+  //  if (!localStorage.getItem("user")) {
+     // window.location.replace("../pages/login.html");
+    //}
+  //});
 
 import{
     app,db,collection,addDoc,deleteDoc,doc,getDocs,updateDoc
